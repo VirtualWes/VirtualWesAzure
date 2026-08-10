@@ -1,0 +1,24 @@
+# Azure
+*.azurePubxml
+*.pubxml
+.azure/
+local.settings.json
+
+# Bicep
+*.bicepparam.json
+bin/
+obj/
+
+# IDE / OS
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Secrets / local
+*.pfx
+*.key
+.env
+secrets/
